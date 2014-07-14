@@ -16,7 +16,6 @@ SOURCES += casesubs.c \
            distance.c \
            getfilelength.c \
            getfilename.c \
-           getline.c \
            killfile.c \
            mallocsubs.c \
            nint.c \
@@ -35,3 +34,7 @@ SOURCES += casesubs.c \
            stripextension.c \
            textfilesubs.c \
            trulen.c
+
+!unix {
+    SOURCES += getline.c
+} 
