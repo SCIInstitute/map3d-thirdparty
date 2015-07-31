@@ -12,7 +12,7 @@ macx {
 
 include (../../options.pri)
 
-INCLUDEPATH += $$QMAKE_INCDIR_QT/../src/3rdparty/zlib
+INCLUDEPATH += $$QMAKE_INCDIR_QT/../src/3rdparty/zlib ../zlib
 
 SOURCES += matfile.cc \
            matfiledata.cc \
